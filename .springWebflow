@@ -3,9 +3,5 @@
 	<version>1</version>
 	<pluginVersion><![CDATA[3.9.6.201809180658-RELEASE]]></pluginVersion>
 	<configs>
-		<config>
-			<file>WebContent/WEB-INF/spring/dispatcher-servlet.xml</file>
-			<name><![CDATA[dispatcher-servlet]]></name>
-		</config>
 	</configs>
 </webflow-project-description>
