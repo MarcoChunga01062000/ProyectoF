@@ -1,11 +1,18 @@
+<%@taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
+<%@taglib uri="http://www.springframework.org/tags" prefix="spring"%>
+<spring:url value="/" var="urlRoot" />
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
     pageEncoding="ISO-8859-1"%>
 <!DOCTYPE html>
 <html>
 <head>
 <meta charset="ISO-8859-1">
-<title>Insert title here</title>
+<title>LoginSisveco</title>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <link href="${urlrecursos}/css/login.css" rel="stylesheet">
+<spring:url value="/recursos" var="urlrecursos"></spring:url>
 </head>
 <body>
 	<div class="background-wrap">
