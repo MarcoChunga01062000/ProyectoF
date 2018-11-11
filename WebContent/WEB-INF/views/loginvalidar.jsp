@@ -11,7 +11,7 @@
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link href="${urlrecursos}/css/login.css" rel="stylesheet">
+
 <spring:url value="/recursos" var="urlrecursos"></spring:url>
 </head>
 <body>
@@ -19,26 +19,27 @@
       <div class="background"></div>
     </div>
     <form id="accesspanel" action="login" method="post">
-      <h1 id="litheader">AECEND</h1>
+      <h1 id="litheader">SISVECO</h1>
       <div class="inset">
         <p>
-          <input type="text" name="username" id="email" placeholder="Email address">
+          <input type="text" name="username" id="email" placeholder="Usuario">
         </p>
         <p>
-          <input type="password" name="password" id="password" placeholder="Access code">
+          <input type="password" name="password" id="password" placeholder="Contraseña">
         </p>
         <div style="text-align: center;">
           <div class="checkboxouter">
             <input type="checkbox" name="rememberme" id="remember" value="Remember">
             <label class="checkbox"></label>
           </div>
-          <label for="remember">Remember me for 14 days</label>
+          <label for="remember">Recordar mi cuenta por 3 dias</label>
         </div>
         <input class="loginLoginValue" type="hidden" name="service" value="login" />
       </div>
       <p class="p-container">
-        <input type="submit" name="Login" id="go" value="Authorize">
+        <input type="submit" name="Login" id="go" value="Ingresar">
       </p>
     </form>
+    <link href="${urlrecursos}/css/login.css" rel="stylesheet">
 </body>
 </html>
