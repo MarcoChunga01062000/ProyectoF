@@ -32,7 +32,7 @@
             <input type="checkbox" name="rememberme" id="remember" value="Remember">
             <label class="checkbox"></label>
           </div>
-          <label for="remember">Recordar mi cuenta por 3 dias</label>
+          <label for="remember">Guardar Contraseña</label>
         </div>
         <input class="loginLoginValue" type="hidden" name="service" value="login" />
       </div>
