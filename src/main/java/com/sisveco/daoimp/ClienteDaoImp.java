@@ -12,6 +12,15 @@ import com.sisveco.entity.Cliente;
 public class ClienteDaoImp implements ClienteDao{
 	@Autowired
 	private JdbcTemplate jdbcTemplate;
+	
+	public JdbcTemplate getJdbcTemplate() {
+		return jdbcTemplate;
+	}
+
+	public void setJdbcTemplate(JdbcTemplate jdbcTemplate) {
+		this.jdbcTemplate = jdbcTemplate;
+	}
+
 	@Override
 	public int create(Cliente u) {
 		// TODO Auto-generated method stub
