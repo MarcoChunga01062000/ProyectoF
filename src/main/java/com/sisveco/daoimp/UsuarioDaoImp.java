@@ -36,7 +36,8 @@ public class UsuarioDaoImp implements UsuarioDao {
                 map.put("idr", rs.getInt("idrol"));
                 map.put("user", rs.getString("usuario"));
                 map.put("nom", rs.getString("nombre"));
-                map.put("apell", rs.getString("apellidos"));
+                map.put("apell", rs.getString("apellido"));
+                map.put("esta", rs.getString("estado"));
                 map.put("rol", rs.getString("nombre"));
             }
         } catch (SQLException e) {
