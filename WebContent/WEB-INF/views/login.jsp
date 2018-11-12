@@ -1,6 +1,4 @@
 
-
-
 <%@taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
 <%@taglib uri="http://www.springframework.org/tags" prefix="spring"%>
 <spring:url value="/" var="urlRoot" />
@@ -9,7 +7,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>SysCoco</title>
+    <title>Sisveco</title>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -30,7 +28,7 @@
             <div class="form-group">
               <div class="form-label-group">
                 <input type="password" id="inputPassword" class="form-control" placeholder="Password" required="required">
-                <label for="inputPassword">ContraseÃ±a</label>
+                <label for="inputPassword">Contraseña</label>
               </div>
             </div>
             
@@ -50,8 +48,7 @@
 	
   </head>
 <body>
-  <jsp:include page="template/top.jsp"></jsp:include>  
-  <jsp:include page="template/left.jsp"></jsp:include>  
+ 
 
 
 

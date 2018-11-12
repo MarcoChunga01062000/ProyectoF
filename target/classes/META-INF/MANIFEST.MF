@@ -1,5 +1,10 @@
 Manifest-Version: 1.0
+<<<<<<< HEAD
 Built-By: alum.fial8
 Build-Jdk: 1.8.0_121
+=======
+Built-By: Kevin
+Build-Jdk: 1.8.0_181
+>>>>>>> a85c86fe19e3d999d79cf27cf31a8fe153423e47
 Created-By: Maven Integration for Eclipse
 
