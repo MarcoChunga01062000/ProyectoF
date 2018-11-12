@@ -9,6 +9,7 @@ import org.springframework.stereotype.Repository;
 
 import com.sisveco.dao.ClienteDao;
 import com.sisveco.entity.Cliente;
+@Repository
 public class ClienteDaoImp implements ClienteDao{
 	@Autowired
 	private JdbcTemplate jdbcTemplate;
