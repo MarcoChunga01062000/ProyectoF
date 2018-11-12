@@ -13,7 +13,6 @@ import com.sisveco.service.UsuarioService;
 
 
 
-@Service
 public class UsuarioServiceImp implements UsuarioService{
 	@Autowired
 	private UsuarioDao usuarioDao;
