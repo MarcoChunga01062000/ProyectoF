@@ -1,10 +1,5 @@
 Manifest-Version: 1.0
-<<<<<<< HEAD
 Built-By: Marco
 Build-Jdk: 1.8.0_181
-=======
-Built-By: alum.fial8
-Build-Jdk: 1.8.0_121
->>>>>>> 1d1f2bb3ae5bb0fc2ffbde14b2c66c5c28053984
 Created-By: Maven Integration for Eclipse
 

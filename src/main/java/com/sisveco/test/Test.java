@@ -11,7 +11,7 @@ public class Test {
 		// TODO Auto-generated method stub
 		UsuarioDao ud = new UsuarioDaoImp();
 		HashMap<String, Object> data = new HashMap<>();
-        data = ud.valdar("marco", "123");
+        data = ud.validar("marco", "123");
         System.out.println(data);
         System.out.println(data.size()); 
 	}
